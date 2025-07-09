@@ -82,7 +82,6 @@ The Face Recognition Attendance System automates the attendance process, ensurin
 
 ## 📚 References
 
-- [face_recognition GitHub](https://github.com/ageitgey/face_recognition)
 - [OpenCV](https://opencv.org/)
 - [Flask Framework](https://flask.palletsprojects.com/)
 - Research papers on biometric authentication
