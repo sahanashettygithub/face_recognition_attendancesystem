@@ -27,7 +27,7 @@ This project implements a Face Recognition-based Attendance System that:
 - **Backend:** Python (Flask)
 - **Face Recognition:** `face_recognition` library
 - **Image/Video Processing:** OpenCV
-- **Database:** CSV file or SQLite
+- **Database:** CSV file
 
 ---
 
