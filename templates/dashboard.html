@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Face_Recognition_System</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="dark-theme">
+    <header>
+        <h1>Face Recognition Attendance Dashboard</h1>
+        <nav>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/students">Students</a>
+            <a href="/attendance">Attendance</a>
+        </nav>
+    </header>
+
+    <section class="stats">
+        <div class="card">Total Students<br><span id="total-students">9</span></div>
+        <div class="card">Present<br><span id="present-students">0</span></div>
+        <div class="card">Absent<br><span id="absent-students">0</span></div>
+        <div class="card">Attendance Rate<br><span id="attendance-rate">0%</span></div>
+    </section>
+
+    <section class="main-panel">
+        <div class="recognition-box">
+            <h3>Face Recognition</h3>
+            <video id="video" autoplay></video>
+            <button id="markBtn">Mark Attendance</button>
+            <p id="status">Awaiting recognition...</p>
+        </div>
+
+
+        <div class="side-panel">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="/attendance" class="button">View Attendance Records</a></li>
+                <li><a href="/students" class="button">Registered Students</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

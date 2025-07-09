@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registered Students</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/static/style.css" />
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            font-size: 32px;
+            color: #00ffe7;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: #1f1f1f;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #444;
+        }
+
+        th {
+            background-color: #2e2e2e;
+            color: #00ffe7;
+        }
+
+        td {
+            color: #ffffff;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #00ffe7;
+            color: #121212;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #00d2c3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registered Students</h1>
+
+    <table>
+        <thead>
+            <tr><th>Name</th><th>Roll No</th><th>Email</th></tr>
+        </thead>
+        <tbody>
+            {% for student in students %}
+            <tr>
+                <td>{{ student["Name"] }}</td>
+                <td>{{ student["Roll No"] }}</td>
+                <td>{{ student["Email"] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="/dashboard" class="button">← Back to Dashboard</a>
+</body>
+</html>
