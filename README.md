@@ -46,6 +46,7 @@ This project implements a Face Recognition-based Attendance System that:
 
 ### 🚀 Deployment:
 - Run the app locally using `app.py`.
+- It will run " http://127.0.0.1:5000 "
 - Can be hosted on a local server (Flask).
 - For scalability, cloud deployment can be considered.
 
