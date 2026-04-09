@@ -57,8 +57,7 @@ This project implements a Face Recognition-based Attendance System that:
 - Real-time recognition dashboard with bounding boxes.
 - Attendance data stored in a `.csv` file.
 - Sample message: `"Sahana Shetty marked present at 09:05 AM"`
-![WhatsApp Image 2025-07-09 at 20 34 22_b694cf1d](https://github.com/user-attachments/assets/b9bbd0e8-c117-43c8-987d-1c6691fddc36)
----
+
 ![WhatsApp Image 2025-07-09 at 21 10 08_6d210c21](https://github.com/user-attachments/assets/6472da33-4c04-4d14-8fb8-c12607689e8b)
 ---
 ![WhatsApp Image 2025-07-09 at 21 11 35_5b9d8188](https://github.com/user-attachments/assets/475b2ae8-661c-4acc-88b7-2a0326b7b929)
